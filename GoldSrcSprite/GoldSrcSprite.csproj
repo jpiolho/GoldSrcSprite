@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright></Copyright>
+    <Authors>JPiolho</Authors>
+    <Company />
+    <Product />
+    <RepositoryUrl>https://github.com/jpiolho/GoldSrcSprite</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/jpiolho/GoldSrcSprite/blob/master/LICENSE</PackageLicenseUrl>
+    <Description>A .NET Standard library for handling GoldSrc engine .spr files</Description>
+    <PackageTags>goldsrc sprite spr</PackageTags>
+    <PackageReleaseNotes>* Fixed issue when getting bitmap from frame with stride padding</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageProjectUrl>https://jpiolho.github.io/GoldSrcSprite/</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+
+</Project>
